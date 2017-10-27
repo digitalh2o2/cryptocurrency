@@ -57,7 +57,7 @@ body {
   background: #001f3f;
 }
 
-h1, h3, p, ul, small {
+h1, h3, p, ul, .btn, small {
   font-family: 'Poiret One', cursive;
 }
 
@@ -70,16 +70,23 @@ h1, h3, p, ul, small {
 
 .primary-header h1 {
   font-size: 56px;
+  color: white;
   line-height: 44px;
 }
 
 .main-title{
   float: left;
+  margin-top: 15px;
 }
 
 .pricing {
   text-align: center;
   line-height: 44px;
+}
+
+.pricing h3 {
+  font-size: 24px;
+  color: white;
 }
 
 /*
@@ -91,6 +98,8 @@ h1, h3, p, ul, small {
 .primary-nav {
   text-align: right;
   line-height: 24px;
+  font-size: 18px;
+  color: white;
   padding: 5px;
 }
 
@@ -129,6 +138,7 @@ h1, h3, p, ul, small {
 .row {
   min-width: 960px;
   background: #fff;
+  text-align: center;
 }
 
 .row h1 {
@@ -141,9 +151,20 @@ h1, h3, p, ul, small {
   ======================================
 */
 
-.btn {
+button {
+  background: #7FDBFF;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
   border-radius: 5px;
-  background: white;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background: #09B29D;
+  color: white;
 }
 
 /*
@@ -153,6 +174,8 @@ h1, h3, p, ul, small {
 */
 
 footer {
+  color: white;
   line-height: 44px;
+  padding-top: 15px;
   text-align: center;
 }
