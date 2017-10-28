@@ -161,10 +161,12 @@ h1, h3, h4, h5, p, ul, .btn, small {
 }
 
 .negative {
+  letter-spacing: 2px;
   color: red;
 }
 
 .positive {
+  letter-spacing: 2px;
   color: green;
 }
 
@@ -182,7 +184,7 @@ button {
   border-radius: 5px;
   height: 50px;
   width: 150px;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .btn:hover {
@@ -226,4 +228,118 @@ button {
     text-align: center;
     padding-top: 30px;
   }
+
+  .col-1-5 {
+    width: 33.33%;
+    margin: 5px 0;
+  }
+
+  .footer {
+    position: relative;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 900px){
+  .col-1-5{
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 830px){
+  .main-title {
+    float: left;
+    clear: both;
+    text-align: center;
+  }
+
+  .primary-nav {
+    text-align: center;
+    float: left;
+    clear: both;
+  }
+
+  .pricing {
+    clear: both;
+  }
+
+  .col-1-5{
+    width: 100%;
+  }
+
+}
+
+
+/* Mobile Specific Queries Below */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .main-title {
+      float: none;
+      text-align: center;
+    }
+
+    .primary-nav {
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .col-1-5 {
+      width: 100%;
+    }
+
+    .footer {
+      position: relative;
+      line-height: 44px;
+    }
+}
+
+@media only screen
+  and (min-device-width: 412px)
+  and (max-device-width: 732px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main-title {
+      float: none;
+      text-align: center;
+    }
+
+    .primary-nav {
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .col-1-5 {
+      width: 100%;
+    }
+
+    .footer {
+      position: relative;
+      line-height: 44px;
+    }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main-title {
+      float: none;
+      text-align: center;
+    }
+
+    .primary-nav {
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .col-1-5 {
+      width: 100%;
+    }
+
+    .footer {
+      position: relative;
+      line-height: 44px;
+    }
 }
