@@ -57,7 +57,7 @@ body {
   background: #001f3f;
 }
 
-h1, h3, p, ul, .btn, small {
+h1, h3, h4, h5, p, ul, .btn, small {
   font-family: 'Poiret One', cursive;
 }
 
@@ -97,10 +97,19 @@ h1, h3, p, ul, .btn, small {
 
 .primary-nav {
   text-align: right;
-  line-height: 24px;
+  margin-bottom: 50px;
   font-size: 18px;
   color: white;
   padding: 5px;
+}
+
+.primary-nav {
+  font-size: 20px;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  color: white;
 }
 
 /*
@@ -124,8 +133,8 @@ h1, h3, p, ul, .btn, small {
 
 .col-1-5 {
   display: inline-block;
-  vertical-align: top;
-  padding: 15px 0;
+  line-height: 24px;
+  margin: 100px 0;
   width: 20%;
 }
 
@@ -138,11 +147,25 @@ h1, h3, p, ul, .btn, small {
 .row {
   min-width: 960px;
   background: #fff;
+  padding: 25px 0;
   text-align: center;
 }
 
 .row h1 {
   font-size: 36px;
+}
+
+.row h3 {
+  font-size: 20px;
+  line-height: 48px;
+}
+
+.negative {
+  color: red;
+}
+
+.positive {
+  color: green;
 }
 
 /*
@@ -173,9 +196,16 @@ button {
   ======================================
 */
 
-footer {
+.footer {
   color: white;
-  line-height: 44px;
-  padding-top: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
   text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
