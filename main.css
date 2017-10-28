@@ -255,7 +255,7 @@ button {
 
   .primary-nav {
     text-align: center;
-    float: left;
+
     clear: both;
   }
 
@@ -341,5 +341,6 @@ button {
     .footer {
       position: relative;
       line-height: 44px;
+      padding-left: 150px;
     }
 }
