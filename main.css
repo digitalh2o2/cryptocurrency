@@ -209,3 +209,21 @@ button {
   color: white;
   text-decoration: none;
 }
+
+/*
+  ======================================
+  CSS Media Queries
+  ======================================
+*/
+
+@media (max-width: 960px){
+  .main-title {
+    float: none;
+    text-align: center;
+  }
+
+  .primary-nav {
+    text-align: center;
+    padding-top: 30px;
+  }
+}

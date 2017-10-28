@@ -1,1 +1,1 @@
-# Crytocurrency Viewer
+# Cryptocurrency Viewer
